@@ -1,0 +1,19 @@
+{
+  "name": "tutorial-mysql",
+  "version": "1.0.0",
+  "description": "A tutorial on mysql prototype",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "nodejs"
+  ],
+  "author": "ssahu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "mysql": "^2.16.0"
+  }
+}

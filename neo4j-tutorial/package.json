@@ -1,0 +1,18 @@
+{
+  "name": "neo4j-tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial to work with neo4j",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expressjs",
+    "neo4j"
+  ],
+  "author": "ssahu",
+  "license": "ISC",
+  "dependencies": {
+    "neo4j": "^2.0.0-RC2"
+  }
+}
