@@ -1,6 +1,6 @@
 # database-learnings
 
-A secure credential manager for the paranoid
+Learning databases the cool way !
 
 ### Projects within
     
