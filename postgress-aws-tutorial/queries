@@ -1,0 +1,14 @@
+SELECT * FROM dogs_table
+
+INSERT INTO public.dogs_table(
+	breed, id, name, age)
+	VALUES ('pug', 'aaa12', 'oreo', 1);
+	
+INSERT INTO public.dogs_table(
+	breed, id, name, age)
+	VALUES ('pub', '122aa', 'pablo', 2);	
+	
+SELECT * FROM dogs_table where breed='pug';
+
+UPDATE dogs_table SET breed='pug' where id = '122aa';
+	
