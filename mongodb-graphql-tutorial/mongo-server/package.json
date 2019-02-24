@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-graphql-tutorial",
+  "version": "1.0.0",
+  "description": "A mongodb with graphql tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "mongodb",
+    "docker"
+  ],
+  "author": "ssahu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15",
+    "nodemon": "^1.18.10"
+  }
+}
