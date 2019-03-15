@@ -25,8 +25,8 @@ const connect = () => {
     const user = '';
     const pass = '';
     const authsrc = '';
-    const db = '';
-    let mongourl = `mongodb://${user}:${pass}@127.0.0.1:27017/${db}?authSource=${authsrc}`;
+    const database = '';
+    let mongourl = `mongodb://${user}:${pass}@127.0.0.1:27017/${database}?authSource=${authsrc}`;
     mongoose.connect(mongourl, {
         useNewUrlParser: true
     });
