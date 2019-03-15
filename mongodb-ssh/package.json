@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-ssh",
+  "version": "1.0.0",
+  "description": "Connect to a mongo db via a ssh tunnel ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose.js",
+    "tunnel-ssh"
+  ],
+  "author": "ssahu",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.19",
+    "tunnel-ssh": "^4.1.4"
+  }
+}

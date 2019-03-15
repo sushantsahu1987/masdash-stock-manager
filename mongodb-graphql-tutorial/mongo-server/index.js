@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 // const url = "mongodb://root:lenny1987@localhost:27017/graphdb";
 // mongodb://<dbuser>:<dbpassword>@ds129333.mlab.com:29333/logger_db
-const url = "mongodb://mongo:27017/graphdb";
+const url = "mongodb://root:root@mongo:27017/graphdb";
 const app = express();
 app.use(bodyParser.json());
 
